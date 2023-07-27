@@ -27,7 +27,7 @@ To use the spell-checker on a file called `text`, run the following:
 ```
 `DICTIONARY` is an optional argument. It will default to `words.txt` when not provided.
 
-The program will then print all mispelt words to the command line.
+The program will then print the line number and word of all mispelt words to the command line.
 
 ## Contents
 
