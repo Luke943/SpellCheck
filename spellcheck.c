@@ -89,6 +89,8 @@ int main(int argc, char *argv[])
         }
     }
 
+    printf("\nFound %d misspelled words.\n", misspellings);
+
     // Check for error
     if (ferror(file))
     {
