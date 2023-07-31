@@ -45,7 +45,7 @@ unsigned int hash(const char *word)
         c = tolower(*word);
         h = ((h << 5) + h) + c; // hash * 33 + *str
     }
-    return h % HASH_TABLE_SIZE;
+    return h & (HASH_TABLE_SIZE - 1); // size is power of 2
 }
 
 bool load(const char *dictionary)
