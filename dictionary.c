@@ -8,7 +8,7 @@
 
 #include "dictionary.h"
 
-#define HASH_TABLE_SIZE 524288U // 2^19
+#define HASH_TABLE_SIZE 65536U // 2^16
 
 // Represents a node in a hash table
 typedef struct node
